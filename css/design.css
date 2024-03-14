@@ -1,0 +1,23 @@
+/* line 2, ../../HTML/Math_site/scss/design.scss */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* line 7, ../../HTML/Math_site/scss/design.scss */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #495df8;
+  width: 100%;
+  height: 100px;
+}
+
+/* line 15, ../../HTML/Math_site/scss/design.scss */
+header h1 {
+  margin-left: 60px;
+}
+
+/*# sourceMappingURL=design.css.map */

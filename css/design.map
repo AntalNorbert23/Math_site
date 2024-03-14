@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "design.css",
+	"sources": [
+		"../scss/design.scss"
+	],
+	"sourcesContent": [
+		"\r\nbody{\r\n    margin:0;\r\n    padding:0;\r\n    box-sizing: border-box;\r\n}\r\nheader{\r\n    display: flex;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n    background-color: rgb(73, 93, 248);\r\n    width:100%;\r\n    height: 100px;\r\n\r\n    h1{\r\n        margin-left:60px;\r\n    }\r\n}"
+	],
+	"names": [],
+	"mappings": ";AACA,AAAA,IAAI,CAAA;EACA,MAAM,EAAC,CAAC;EACR,OAAO,EAAC,CAAC;EACT,UAAU,EAAE,UAAU;CACzB;;;AACD,AAAA,MAAM,CAAA;EACF,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAC9B,WAAW,EAAE,MAAM;EACnB,gBAAgB,EAAE,OAAgB;EAClC,KAAK,EAAC,IAAI;EACV,MAAM,EAAE,KAAK;CAKhB;;;AAXD,AAQI,MARE,CAQF,EAAE,CAAA;EACE,WAAW,EAAC,IAAI;CACnB"
+}
