@@ -20,4 +20,87 @@ header h1 {
   margin-left: 60px;
 }
 
+/* line 18, ../../HTML/Math_site/scss/design.scss */
+header #menuicon {
+  z-index: 1;
+  font-size: 2.8em;
+  margin-right: 30px;
+  text-align: center;
+}
+
+/* line 24, ../../HTML/Math_site/scss/design.scss */
+header #menuicon:hover {
+  cursor: pointer;
+}
+
+/* line 29, ../../HTML/Math_site/scss/design.scss */
+.menudiv {
+  display: none;
+  text-align: center;
+  height: 100%;
+  width: 13em;
+  position: fixed;
+  z-index: 1;
+  top: 100px;
+  right: 0;
+  background: linear-gradient(to right, #2408f5, #9f31f3);
+  overflow-x: hidden;
+  padding-top: 30px;
+}
+
+/* line 42, ../../HTML/Math_site/scss/design.scss */
+.menudiv a {
+  color: white;
+  text-decoration: none;
+}
+
+/* line 46, ../../HTML/Math_site/scss/design.scss */
+.menudiv a:visited {
+  color: white;
+}
+
+/* line 49, ../../HTML/Math_site/scss/design.scss */
+.menudiv a:hover {
+  color: #5ec5fd;
+}
+
+/* line 53, ../../HTML/Math_site/scss/design.scss */
+.menudiv #homeicon {
+  display: block;
+  font-size: 1.5em;
+  padding-bottom: 20px;
+}
+
+/* line 58, ../../HTML/Math_site/scss/design.scss */
+.menudiv #mathdiv {
+  padding: 15px 0px;
+}
+
+/* line 61, ../../HTML/Math_site/scss/design.scss */
+.menudiv #mathdiv :first-child {
+  font-size: 20px;
+  color: #5ec5fd;
+}
+
+/* line 65, ../../HTML/Math_site/scss/design.scss */
+.menudiv #mathdiv :first-child:hover {
+  color: #b5def5;
+}
+
+/* line 70, ../../HTML/Math_site/scss/design.scss */
+.menudiv #chemdiv {
+  padding: 10px 0px;
+}
+
+/* line 73, ../../HTML/Math_site/scss/design.scss */
+.menudiv #chemdiv :first-child {
+  font-size: 20px;
+  color: #5ec5fd;
+}
+
+/* line 77, ../../HTML/Math_site/scss/design.scss */
+.menudiv #chemdiv :first-child:hover {
+  color: #b5def5;
+}
+
 /*# sourceMappingURL=design.css.map */

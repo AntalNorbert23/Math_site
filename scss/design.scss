@@ -15,4 +15,68 @@ header{
     h1{
         margin-left:60px;
     }
+    #menuicon{
+        z-index: 1;
+        font-size: 2.8em;
+        margin-right:30px;
+        text-align: center;
+
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
+.menudiv{
+    display: none;
+    text-align: center;
+    height: 100%;
+    width:13em;
+    position: fixed;
+    z-index: 1;
+    top: 100px;
+    right: 0;
+    background:linear-gradient( to right,rgb(36, 8, 245),rgb(159, 49, 243)); ;
+    overflow-x: hidden;
+    padding-top: 30px;
+
+    a{
+        color:white;
+        text-decoration: none;
+
+        &:visited{
+            color:white;
+        }
+        &:hover{
+            color:rgb(94, 197, 253);
+        }
+    }
+    #homeicon{
+        display: block;
+        font-size: 1.5em;
+        padding-bottom:20px;
+    }
+    #mathdiv{
+        padding:15px 0px;
+
+        :first-child{
+            font-size:20px;
+            color:rgb(94, 197, 253);
+
+            &:hover{
+                color:rgb(181, 222, 245);
+            }
+        }
+    }
+    #chemdiv{
+        padding:10px 0px;
+
+        :first-child{
+            font-size:20px;
+            color:rgb(94, 197, 253);
+
+            &:hover{
+                color:rgb(181, 222, 245);
+            }
+        }
+    }
 }
