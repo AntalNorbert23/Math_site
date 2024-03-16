@@ -1,0 +1,101 @@
+/* line 8, ../../HTML/Math_site/scss/calcstyles.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 11, ../../HTML/Math_site/scss/calcstyles.scss */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* line 16, ../../HTML/Math_site/scss/calcstyles.scss */
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: rgba(0, 0, 5, 0.885);
+}
+
+/* line 28, ../../HTML/Math_site/scss/calcstyles.scss */
+#resultdiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* line 33, ../../HTML/Math_site/scss/calcstyles.scss */
+#result {
+  color: white;
+  background-color: rgba(97, 97, 111, 0.885);
+  border: none;
+  box-shadow: none;
+  width: 83%;
+  height: 60px;
+  text-align: right;
+  padding-right: 10px;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+/* line 45, ../../HTML/Math_site/scss/calcstyles.scss */
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* line 49, ../../HTML/Math_site/scss/calcstyles.scss */
+.row button {
+  padding: 15px;
+  margin: 5px;
+  font-size: large;
+  background-color: black;
+  color: white;
+  border: none;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+/* line 59, ../../HTML/Math_site/scss/calcstyles.scss */
+.row button:hover {
+  background-color: rgba(97, 97, 111, 0.885);
+  cursor: pointer;
+  border: none;
+}
+
+/* line 66, ../../HTML/Math_site/scss/calcstyles.scss */
+.row .operator:hover {
+  background-color: orange;
+}
+
+/* line 71, ../../HTML/Math_site/scss/calcstyles.scss */
+#square {
+  font-size: 14px;
+}
+
+/* line 74, ../../HTML/Math_site/scss/calcstyles.scss */
+#sqrt {
+  font-size: 14px;
+}
+
+/* line 77, ../../HTML/Math_site/scss/calcstyles.scss */
+#delete {
+  padding: 14px;
+  font-size: 14px;
+}
+
+/* line 81, ../../HTML/Math_site/scss/calcstyles.scss */
+#dot {
+  padding: 21.8px;
+}
+
+/*# sourceMappingURL=calcstyles.css.map */

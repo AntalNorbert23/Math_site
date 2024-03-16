@@ -1,0 +1,83 @@
+$color_1: white;
+$font-family_1: 'Times New Roman', Times, serif;
+$background-color_1: rgba(0, 0, 5, 0.885);
+$background-color_2: rgba(97, 97, 111, 0.885);
+$background-color_3: black;
+$background-color_4: orange;
+
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: $font-family_1;
+}
+main {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	background-color: $background-color_1;
+}
+#resultdiv {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+#result {
+	color: $color_1;
+	background-color: $background-color_2;
+	border: none;
+	box-shadow: none;
+	width: 83%;
+	height: 60px;
+	text-align: right;
+	padding-right: 10px;
+	font-size: 2em;
+	margin-bottom: 20px;
+}
+.row {
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	button {
+		padding: 15px;
+		margin: 5px;
+		font-size: large;
+		background-color: $background-color_3;
+		color: $color_1;
+		border: none;
+		width: 60px;
+		height: 60px;
+		border-radius: 50%;
+		&:hover {
+			background-color: $background-color_2;
+			cursor: pointer;
+			border: none;
+		}
+	}
+	.operator {
+		&:hover {
+			background-color: $background-color_4;
+		}
+	}
+}
+#square {
+	font-size: 14px;
+}
+#sqrt {
+	font-size: 14px;
+}
+#delete {
+	padding: 14px;
+	font-size: 14px;
+}
+#dot {
+	padding: 21.8px;
+}

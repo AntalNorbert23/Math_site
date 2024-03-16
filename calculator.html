@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="/css/calcstyles.css">
+</head>
+<body>
+    <main>
+        <div id="resultdiv">
+            <input type="text" id="result" readonly >
+        </div>
+        <div class="row">
+            <button id="square" class="operator" onclick="append('**')">x<sup>2</sup></button>
+            <button id="sqrt" class="operator" onclick="sqrt()">&#8730;x</button>
+            <button id="clear" class="operator"  onclick="cleardisplay()">&#8705;</button>
+            <button id="delete" class="operator"  onclick="deletelast()">Del</button>
+        </div>
+        <div class="row">
+            <button id="7"  onclick="append('7')">7</button>
+            <button id="8" onclick="append('8')">8</button>
+            <button id="9" onclick="append('9')">9</button>
+            <button id="divide" class="operator" onclick="append('/')">&#247;</button>
+        </div>
+        <div class="row">
+            <button id="4"  onclick="append('4')">4</button>
+            <button id="5" onclick="append('5')">5</button>
+            <button id="6" onclick="append('6')">6</button>
+            <button id="multiply" class="operator" onclick="append('*')">&#215;</button>
+        </div>
+        <div class="row">
+            <button id="one"  onclick="append('1')">1</button>
+            <button id="2" onclick="append('2')">2</button>
+            <button id="3" onclick="append('3')">3</button>
+            <button id="minus" class="operator" onclick="append('-')">&#8722;</button>
+        </div>
+        <div class="row">
+            <button id="0"  onclick="append('0')">0</button>
+            <button id="dot" class="operator" onclick="append('.')">&#8729;</button>
+            <button id="equal" class="operator" onclick="calculate('=')">&#61;</button>
+            <button id="add" class="operator" onclick="append('+')">&#43;</button>
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="calculator.js"></script>
+</body>
+</html>
