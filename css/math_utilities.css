@@ -1,0 +1,155 @@
+/* line 1, ../../HTML/Math_site/scss/math_utilities.scss */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* line 6, ../../HTML/Math_site/scss/math_utilities.scss */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #495df8;
+  width: 100%;
+  height: 100px;
+}
+
+/* line 14, ../../HTML/Math_site/scss/math_utilities.scss */
+header h1 {
+  margin-left: 60px;
+}
+
+/* line 17, ../../HTML/Math_site/scss/math_utilities.scss */
+header #menuicon {
+  z-index: 1;
+  font-size: 2.8em;
+  margin-right: 30px;
+  text-align: center;
+}
+
+/* line 23, ../../HTML/Math_site/scss/math_utilities.scss */
+header #menuicon:hover {
+  cursor: pointer;
+}
+
+/* line 28, ../../HTML/Math_site/scss/math_utilities.scss */
+.menudiv {
+  display: none;
+  text-align: center;
+  height: 100%;
+  width: 13em;
+  position: fixed;
+  z-index: 1;
+  top: 100px;
+  right: 0;
+  background: linear-gradient(to right, #2408f5, #9f31f3);
+  overflow-x: hidden;
+  padding-top: 30px;
+}
+
+/* line 41, ../../HTML/Math_site/scss/math_utilities.scss */
+.menudiv #homeicon, .menudiv #calculator {
+  color: white;
+  text-decoration: none;
+}
+
+/* line 45, ../../HTML/Math_site/scss/math_utilities.scss */
+.menudiv #homeicon:visited, .menudiv #calculator:visited {
+  color: white;
+}
+
+/* line 48, ../../HTML/Math_site/scss/math_utilities.scss */
+.menudiv #homeicon:hover, .menudiv #calculator:hover {
+  color: #5ec5fd;
+}
+
+/* line 52, ../../HTML/Math_site/scss/math_utilities.scss */
+.menudiv #calculator {
+  font-size: 20px;
+}
+
+/* line 55, ../../HTML/Math_site/scss/math_utilities.scss */
+.menudiv #homeicon {
+  display: block;
+  font-size: 1.5em;
+  padding-bottom: 20px;
+}
+
+/* line 60, ../../HTML/Math_site/scss/math_utilities.scss */
+.menudiv #mathdiv {
+  padding: 15px 0px;
+}
+
+/* line 64, ../../HTML/Math_site/scss/math_utilities.scss */
+.menudiv #mathdiv_inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 69, ../../HTML/Math_site/scss/math_utilities.scss */
+.menudiv #mathdiv_inner .mathutils {
+  font-size: 20px;
+  color: #5ec5fd;
+  margin: 15px 0 0 0;
+}
+
+/* line 74, ../../HTML/Math_site/scss/math_utilities.scss */
+.menudiv #mathdiv_inner .mathutils:hover {
+  color: #b5def5;
+  cursor: pointer;
+}
+
+/* line 79, ../../HTML/Math_site/scss/math_utilities.scss */
+.menudiv #mathdiv_inner .mathutils .arrowhead {
+  margin-left: 10px;
+  transition: 0.5s;
+  transform: rotateZ(-270deg);
+}
+
+/* line 84, ../../HTML/Math_site/scss/math_utilities.scss */
+.menudiv #mathdiv_inner .mathutils .arrowtoggle {
+  transition: 0.5s;
+  transform: rotateZ(-90deg);
+}
+
+/* line 92, ../../HTML/Math_site/scss/math_utilities.scss */
+#subcomponents {
+  display: none;
+}
+
+/* line 95, ../../HTML/Math_site/scss/math_utilities.scss */
+#subcomponents .title {
+  font-size: 20px;
+  color: #26a8ee;
+  text-decoration: underline;
+}
+
+/* line 101, ../../HTML/Math_site/scss/math_utilities.scss */
+#subcomponents a {
+  font-size: 16px;
+  padding: 2px;
+  color: white;
+  text-decoration: none;
+}
+
+/* line 107, ../../HTML/Math_site/scss/math_utilities.scss */
+#subcomponents a:visited {
+  color: white;
+}
+
+/* line 110, ../../HTML/Math_site/scss/math_utilities.scss */
+#subcomponents a:hover {
+  color: #5ec5fd;
+}
+
+/* line 115, ../../HTML/Math_site/scss/math_utilities.scss */
+#subcomponents #geometrydiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=math_utilities.css.map */
