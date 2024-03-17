@@ -1,12 +1,20 @@
 
-//adding components to the main HTML
+//adding menu icon and its function
+$(document).ready(function() {
+    $("#menuicon").on("click", function() {
+          $(".menudiv").toggle("slow");
+          $("#menuicon").toggleClass("activeX");
+        if($("#menuicon").hasClass("activeX")){
+            $("#menuicon").fadeOut("slow", function() {
+                $(this).text("✖").fadeIn("slow");
+            });
+        }else{
+            $("#menuicon").fadeOut("slow", function() {
+                $(this).text("☰").fadeIn("slow");
+            });
+        }
+    });
+});
 
-$(
-    function(){
-        const includes=$("[data-includes]")
-        $.each(includes,function(){
-            const file=$(this).data('includes')+'.html';
-            $(this).load(file);
-        })
-    }
-)
+
+
