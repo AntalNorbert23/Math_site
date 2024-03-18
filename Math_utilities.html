@@ -26,7 +26,14 @@
             </div>
             <div id="subcomponents">
                 <p class="title">Algebra</p>
-                <a href="">One</a>
+                <p class="functionstitle">Functions and equations <span class="fa fa-arrow-circle-right  arrowhead_sec"></span></p>
+                <div id="functiondiv">
+                    <div id="subfunctiondiv">
+                        <a href="#directlyprp">Directly proportional</a>
+                        <a href="#inverselyprp">Inversely proportional</a>
+                        <a href="#secoordereq">Second order EQ</a>
+                    </div>
+                </div>
                 <p class="title">Geometry</p>
                 <div id="geometrydiv">
                     <a href="">Pythagoras</a>
@@ -36,5 +43,34 @@
             </div>
        </div>
     </div>
+    <main>
+        <h1 class="maintitles">Functions and equations</h1>
+        <div id="prpdiv">
+            <p id="directlyprp">Directly proportional</p>
+            Equation: y=kx => k=y/x
+            <p id="inverselyprp">Inversely proportional</p>
+
+            <input type="text" placeholder="y" id="yvalue">
+            <input type="text" placeholder="x" id="xvalue">
+            <button id="calcprop">Calc</button>
+            <input type="text" placeholder="Result" id="kvalue">
+            <input type="radio" name="proportionality" id="direct" checked>
+            <label for="direct">Directly</label>
+            <input type="radio" name="proportionality" id="inverse" >
+            <label for="inverse">Inversely</label>
+        </div>
+        <div>
+            <p id="secoordereq">Second order EQ</p>
+            <p>ax<sup>2</sup>+bx+c=0</p>
+
+            <input type="text" placeholder="a" id="avalue">
+            <input type="text" placeholder="b" id="bvalue">
+            <input type="text" placeholder="c" id="cvalue">
+            <button id="calcsecorder">Calc</button>
+            <input type="text" placeholder="Result" id="resultvalue">
+            <p id="errorsecorder"></p>
+            
+        </div>
+    </main>
 </body>
 </html>
